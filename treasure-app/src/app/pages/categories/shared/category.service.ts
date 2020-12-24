@@ -5,9 +5,7 @@ import { catchError, map } from 'rxjs/operators';
 
 import { Category } from './category.model';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable({ providedIn: "root" })
 export class CategoryService {
 
   private apiPath = 'api/categories';

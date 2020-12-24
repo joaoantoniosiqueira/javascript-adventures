@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "treasure-app"
+  "defaultProject": "treasure-app",
+  "cli": {
+    "analytics": false
+  }
 }
